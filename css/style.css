@@ -10,11 +10,12 @@ body {
   header {
     background: url('../images/design-art-2029562.png') transparent center no-repeat;
     background-size: cover;
-    color: black;
+    color: white;
     text-align: center;
     padding-bottom: 1em;
     margin-bottom: 1em;
   }
+
   
   /* Comme dit dans header, on met un fond blanc à la nav (voir maquette mobile) */
   .navbar {
@@ -179,6 +180,11 @@ body {
   
   /* devide de 992px de large ou plus => lg chez bootstrap */
   @media (min-width:992px) {
+
+    header{
+      color: black;
+    }
+
     header section {
       display: block;
     }
@@ -192,6 +198,7 @@ body {
       width: 60%;
       margin: auto;
       padding-bottom: 2em;
+
     }
   
     /* Affichage de la sidebar => on définit couleurs, size et espacement */
