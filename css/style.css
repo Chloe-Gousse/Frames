@@ -1,12 +1,10 @@
 /* color : #141526 */
 
 
-/* on définit la font demandée dans le body, pour qu'elle s'applique partout */
 body {
     font-family: 'Open Sans', sans-serif;
   }
   
-  /* on met l'image de bkd sur le header, mais on met aussi un bkd blanc sur le menu */
   header {
     background: url('../images/design-art-2029562.png') transparent center no-repeat;
     background-size: cover;
@@ -17,13 +15,11 @@ body {
   }
 
   
-  /* Comme dit dans header, on met un fond blanc à la nav (voir maquette mobile) */
   .navbar {
     background-color: #f8f8f8;
       
   }
   
-  /* on surcharge les éléments de bootstrap. Pour surcharger, le "poids" du selecteur/ciblage doit être le même que celui des styles de bootstrap */
   .navbar,
   .navbar-light .navbar-brand,
   .navbar-light .navbar-toggler {
@@ -31,14 +27,12 @@ body {
     font-weight: 800;
   }
   
-  /* on créé la barre entre titre et slogan */
   header hr {
     border-width: 3px;
     border-color: white;
     width: 60px;
   }
   
-  /* le graphiste nous a donné la size à définir pour navbar-brand */
   .navbar-light .navbar-brand {
     font-size: 18px;
   }
@@ -64,7 +58,6 @@ body {
     font-weight: 300;
   }
   
-  /* ici on a créé un peu d'espace, l'unité est le "em" pour que ça dépende de la font-size du parent (que ce soit relatif) */
   article.card {
     margin: 2em 0;
     border: 0;
@@ -147,21 +140,16 @@ body {
  
     }
   
-  /* device de 768px min (tablette ou +) => md chez bootstrap */
   @media (min-width:768px) {
   
-    /* le header est différent, le titre et le slogan disparaissent */
     header {
       padding-bottom: 0;
-      /* on retire le padding-bottom car il n'y a plus de titre et slogan, donc plus besoin de cet espacement */
     }
   
-    /* on retire le fond blanc de la navbar */
     .navbar {
       background-color: transparent;
     }
   
-    /* on met les textes en blancs car l'image de fond est foncée */
     .navbar,
     .navbar-light .navbar-brand,
     .navbar-light .navbar-toggler,
@@ -178,7 +166,6 @@ body {
     }
   }
   
-  /* devide de 992px de large ou plus => lg chez bootstrap */
   @media (min-width:992px) {
 
     header{
@@ -193,7 +180,6 @@ body {
       font-size: 80px;
     }
   
-    /* pour que le texte soit centré sans être trop prêt des bords */
     header p {
       width: 60%;
       margin: auto;
@@ -201,7 +187,6 @@ body {
 
     }
   
-    /* Affichage de la sidebar => on définit couleurs, size et espacement */
     .card-header {
       background: #141526;
       color: white;
