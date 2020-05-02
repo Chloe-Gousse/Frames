@@ -47,10 +47,10 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav ">
           <li class="nav-item">
-            <a class="nav-link" href="index.php?page=category&catName=Team3D">Team2D</a>
+            <a class="nav-link" href="index.php?page=category&catName=Team2D">Team2D</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.php?page=category&catName=Team2D">Team3D</a>
+            <a class="nav-link" href="index.php?page=category&catName=Team3D">Team3D</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="index.php?page=category&catName=Technologies">Technologies</a>
